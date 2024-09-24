@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TaskHub</string>
+    <string name="volume_percentage">%d%%</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="brightness_percentage">Brightness: %1$d%%</string>
+
+    <string name ="my_map_api_key">AIzaSyCTJ9Xm5mJ-TKUal0x0QGZwEVn0OYxP2PI</string>
+
+
+</resources>

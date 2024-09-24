@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12679109908",
+    "project_id": "contextawaretaskmanagement",
+    "storage_bucket": "contextawaretaskmanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12679109908:android:c48788c1a38692cb5bb601",
+        "android_client_info": {
+          "package_name": "com.hub.contextawaretaskmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12679109908-gkhake6m027b5iml9p1cs74m479p29po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-mY1xqQKfgrY1HaadSxsWg8nS92KmRII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12679109908-gkhake6m027b5iml9p1cs74m479p29po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
