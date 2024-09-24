@@ -1,0 +1,3 @@
+com.hub.contextawaretaskmanagement.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

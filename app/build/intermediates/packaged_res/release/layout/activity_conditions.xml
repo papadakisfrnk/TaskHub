@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Rules.Conditions.MyConditions">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Conditions"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="#7289da"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/textView3"
+        >
+
+        <Button
+            android:id="@+id/buttonOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF0000"
+            android:background="?attr/selectableItemBackground"
+            android:text="OR" />
+
+        <Button
+            android:id="@+id/buttonAnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF0000"
+            android:background="?attr/selectableItemBackground"
+            android:text="AND" />
+
+        <Button
+            android:id="@+id/buttonNot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF0000"
+            android:background="?attr/selectableItemBackground"
+            android:text="NOT" />
+
+        <Button
+            android:id="@+id/buttonXor"
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFF0000"
+            android:layout_height="wrap_content"
+            android:text="XOR" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/conditionlistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="200dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Actions"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="#7289da"
+        android:layout_centerHorizontal="true"/>
+    <ListView
+        android:id="@+id/actionlistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView4"
+        />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+</RelativeLayout>

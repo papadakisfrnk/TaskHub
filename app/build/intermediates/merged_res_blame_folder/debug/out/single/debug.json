@@ -1,0 +1,874 @@
+[
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_settings_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/settings_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_list_item_layout.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/list_item_layout.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_phone_menu_photo_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/phone_menu_photo_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_date_time.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_date_time.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_home_icon_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/home_icon_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_home.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/home.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_home_icon_foreground.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/home_icon_foreground.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_log_in_image_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/log_in_image_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_settings_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/settings_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_baseline_manage_accounts_24.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/baseline_manage_accounts_24.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_location.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_location.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_notification_icon.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/notification_icon.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_log_in_image_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/log_in_image_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_logs_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/logs_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_popup_search.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/popup_search.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_set_volume.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_set_volume.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_ic_date_time_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/ic_date_time_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_authentication.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_logs_icon_menu_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/logs_icon_menu_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_phone.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_phone.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_logs_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/logs_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_phone_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/phone_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_logs_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/logs_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_sendmessage_action.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/sendmessage_action.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_rules_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/rules_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_menu_logs.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/menu_logs.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_settings_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/settings_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_apps_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/apps_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_apps_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/apps_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_apps_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/apps_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_ic_date_time.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/ic_date_time.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_biometric_only.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_biometric_only.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_set_dnd.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_set_dnd.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_rules_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/rules_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_buttonshape.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/buttonshape.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_settings_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/settings_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_image_location.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/image_location.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_ic_date_time.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/ic_date_time.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_settings_icon_menu_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/settings_icon_menu_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_logs.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_logs.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_home_icon_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/home_icon_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_settings_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/settings_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_ic_date_time_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/ic_date_time_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_home_icon_foreground.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/home_icon_foreground.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_logs_icon_menu_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/logs_icon_menu_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_home_icon.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/home_icon.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_rules_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/rules_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_phone_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/phone_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_home_icon_foreground.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/home_icon_foreground.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_actions.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_actions.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_settings_icon_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/settings_icon_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_home_icon_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/home_icon_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_ic_date_time_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/ic_date_time_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_apps_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/apps_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_login_user_name.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/login_user_name.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_logs_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/logs_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_list_item_condition.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/list_item_condition.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_phone_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/phone_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_phone_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/phone_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_ic_date_time_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/ic_date_time_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_menu_condition_settings.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/menu_condition_settings.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_logs_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/logs_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_list_item_rule.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/list_item_rule.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_settings_condition_list.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/settings_condition_list.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_rules_icon_menu_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/rules_icon_menu_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_button_create.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/button_create.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_rules_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/rules_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_apps_icon_menu_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/apps_icon_menu_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_phone_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/phone_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_phone_icon_menu_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/phone_icon_menu_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_home_icon_foreground.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/home_icon_foreground.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_password.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/password.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_log_in_image.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/log_in_image.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_logs_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/logs_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_log_in_image.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/log_in_image.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_showallappmenu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/showallappmenu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_menu_rule_settings.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/menu_rule_settings.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_phone_icon_menu_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/phone_icon_menu_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_log_in_image_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/log_in_image_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_eye_off.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/eye_off.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_rules_icon_menu_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/rules_icon_menu_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_apps_menu_photo_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/apps_menu_photo_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_show_all_settings_icon.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/show_all_settings_icon.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_log_in_image_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/log_in_image_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_someone_calling_texting.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_someone_calling_texting.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_logs_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/logs_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_apps_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/apps_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_settings_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/settings_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_showall.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_showall.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_rules_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/rules_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_log_in_image_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/log_in_image_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_rules_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/rules_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_enviroment_rules.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_enviroment_rules.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_home_icon.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/home_icon.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_home_icon.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/home_icon.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_image_date_time.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/image_date_time.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_phone_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/phone_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_conditions.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_conditions.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_image_battery.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/image_battery.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_image_mail.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/image_mail.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_rules_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/rules_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_log_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/log_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_settings_icon_menu_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/settings_icon_menu_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_register.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_settings_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/settings_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_phone_icon_menu_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/phone_icon_menu_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_settings_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/settings_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_brightness_icon.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/brightness_icon.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_baseline_fingerprint_24.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/baseline_fingerprint_24.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_ic_date_time_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/ic_date_time_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_apps_icon_menu_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/apps_icon_menu_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_settings_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/settings_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_log_in_image_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/log_in_image_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_baseline_arrow_right_alt_24.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/baseline_arrow_right_alt_24.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_home_icon.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/home_icon.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_list_item_show_all.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/list_item_show_all.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_home_icon.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/home_icon.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_home_icon.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/home_icon.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_rules_icon_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/rules_icon_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable__865269.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/_865269.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_rules_icon_menu_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/rules_icon_menu_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_ic_date_time_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/ic_date_time_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_email.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/email.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_give_rule_name.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_give_rule_name.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_settings_menu_photo_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/settings_menu_photo_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_home_icon_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/home_icon_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_ic_date_time_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/ic_date_time_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_set_wifi.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_set_wifi.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_ic_date_time.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/ic_date_time.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_volume_action.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/volume_action.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_log_in_image_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/log_in_image_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_bg_seach_map.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/bg_seach_map.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_log_in_image.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/log_in_image.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_round_button.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_phone_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/phone_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_settings.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_home_icon_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/home_icon_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_logs_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/logs_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_user.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_user.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_apps_icon_menu_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/apps_icon_menu_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_rules_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/rules_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_home_icon_round.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/home_icon_round.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_image_phone.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/image_phone.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_set_brightness.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_set_brightness.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_logs_icon_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/logs_icon_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_addlocation.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_addlocation.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_accounts_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/accounts_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_phone_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/phone_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_pattern_logo.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/pattern_logo.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_ic_date_time_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/ic_date_time_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_log_in_image_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/log_in_image_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_callsomeone_action.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/callsomeone_action.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_maps_location.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_maps_location.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_message.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_message.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_ic_date_time.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/ic_date_time.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_logs_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/logs_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_acitivity_program.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/acitivity_program.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_home_icon_foreground.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/home_icon_foreground.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_log_in_image.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/log_in_image.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_rules_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/rules_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_ic_date_time_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/ic_date_time_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_ic_date_time_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/ic_date_time_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_stage_button.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/stage_button.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_login_user.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/login_user.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_list_item_action.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/list_item_action.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_taskhub_logo.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/taskhub_logo.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_home_icon_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/home_icon_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_dnd_action.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/dnd_action.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_set_call.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_set_call.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_list_item_log.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/list_item_log.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_ic_date_time.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/ic_date_time.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_action_bar_layout.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/action_bar_layout.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_log_in_image.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/log_in_image.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v26_phone_icon_menu.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v26/phone_icon_menu.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_settings_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/settings_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_ic_date_time.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/ic_date_time.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_turnoffwifi_action.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/turnoffwifi_action.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_logs_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/logs_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_battery_level.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_battery_level.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_rules_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/rules_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_phone_icon_menu_round.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/phone_icon_menu_round.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xhdpi_ic_date_time_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xhdpi/ic_date_time_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_settings_icon_menu_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/settings_icon_menu_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_logs_icon_menu_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/logs_icon_menu_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_logs_menu_photo_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/logs_menu_photo_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_rules_menu_photo_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/rules_menu_photo_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-mdpi_phone_icon_menu.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-mdpi/phone_icon_menu.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxhdpi_home_icon_round.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxhdpi/home_icon_round.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_login.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_myrules.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_myrules.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/menu_menu_location_map.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/menu/menu_location_map.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/drawable_ic_date_time_background.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/drawable/ic_date_time_background.xml"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/mipmap-hdpi_log_in_image.webp.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/mipmap-hdpi/log_in_image.webp"
+    },
+    {
+        "merged": "com.hub.contextawaretaskmanagement.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.hub.contextawaretaskmanagement.app-main-35:/xml/data_extraction_rules.xml"
+    }
+]

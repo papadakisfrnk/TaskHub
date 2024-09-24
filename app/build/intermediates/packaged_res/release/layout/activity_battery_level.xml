@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Rules.Enviroments.BatteryLevel">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Βelow you can press the percentage of the battery you want to proceed with the Activity.You can
+also add your own battery level by typing."
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+    </GridLayout>
+
+ <EditText
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/text_btr_lvl"
+     android:foregroundGravity="center"
+     android:textColor="@color/white"
+     android:textColorHint="@color/white"
+     android:numeric="integer"
+     android:textSize="20dp"
+     android:layout_marginTop="50dp"
+     android:hint="Enter battery percentage."
+     app:layout_constraintTop_toBottomOf="@id/buttonGrid"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintTop_toBottomOf="@id/text_btr_lvl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

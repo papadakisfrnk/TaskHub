@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:title="Manage Account"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/normal_account"
+                android:title="Normal"/>
+
+            <item
+                android:id="@+id/informative_account"
+                android:title="Informative"/>
+            <item
+                android:id="@+id/interactive_account"
+                android:title="Interactive"/>
+            <item
+                android:id="@+id/logout_account"
+                android:title="Log Out"/>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myrulesmenu"
+        android:title="My Rules"
+        android:icon="@drawable/rules_icon_menu_foreground"/>
+    <item
+        android:id="@+id/phonemenu"
+        android:title="Phone"
+        android:icon="@drawable/phone_icon_menu_foreground"/>
+    <item
+        android:id="@+id/appsmenu"
+        android:title="Apps"
+        android:icon="@drawable/apps_icon_menu_foreground"/>
+    <item
+        android:id="@+id/settingsmenu"
+        android:title="Settings"
+        android:icon="@drawable/settings_icon_menu_foreground"/>
+    <item
+        android:id="@+id/logsmenu"
+        android:title="Logs"
+        android:icon="@drawable/logs_icon_menu_foreground"/>
+</menu>

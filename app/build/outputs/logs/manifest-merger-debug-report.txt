@@ -1,0 +1,911 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:2:1-234:12
+MERGED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:2:1-234:12
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/be40f6f1444353bd72db9d7d8a384c19/transformed/material-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikuutayuq/.gradle/caches/transforms-4/04c547a3b562bd7269abe3b963996a67/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c928df499f87faae446dc6f6205c585d/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/ikuutayuq/.gradle/caches/transforms-4/ac70ba91be787394de78a23d027e5e38/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d767dd7ca1dbe59d05290c98d60b99dc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-ml-vision:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/14e8855b86d78737f8ed14c605fa7b10/transformed/jetified-firebase-ml-vision-17.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c95ecc8b8c7207a0529633aa97d7e5a8/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8ba303aa73d7f2983ebad189c1e26622/transformed/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/30370664d26e67c54e9100707f405f49/transformed/jetified-play-services-vision-15.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e52a919a911a7eedbc912da70a20e89/transformed/jetified-play-services-vision-image-label-15.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/f8aedb19dd2f4dcfe4d931b061a6c51d/transformed/jetified-play-services-vision-common-15.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:16.1.2] /Users/ikuutayuq/.gradle/caches/transforms-4/50bd1674fd37202c0ed1efdb71f29dfc/transformed/jetified-firebase-ml-common-16.1.2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ikuutayuq/.gradle/caches/transforms-4/4bf1dfce8bfc251a5beba9874be6ee8d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/29b1591b871c405f4d4d277724129d6a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ikuutayuq/.gradle/caches/transforms-4/28a80b6d1a67cfda82199d624fef778f/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e6e5b208ab6d1a3075adb4dae70f1850/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/0a2e0700e8f308d11bdaf9960ce3aacc/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/383ad5e5fa5f12690504aa2f4873c394/transformed/jetified-play-services-flags-15.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/dd3ca0d03a602c11968c7981ac9112e0/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4160919330053b05fea1fedaa35ffa36/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/da7597ad3a4bc133e87ee767dfe2c648/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/ikuutayuq/.gradle/caches/transforms-4/82e7a0b934498bd3cc94a2f9bdb7b9b8/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/ikuutayuq/.gradle/caches/transforms-4/2b287dc3b5152d681acfdd553d2fae2e/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/e488128aa3835a2c69f8aa71b106e156/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/2e480690c1ddfcbef1f50bf672e24d3b/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f60edcfb495092a4dc08d5a2743179f8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af169fb43f1515b58cf0b51ea81992a8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/605341937c76db91796e49b5974cc0f7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c1d01d14c04a336ef645064dc58fefeb/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/18bc5f39aff181ee32489e31d8e7016b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4ac17a57ed3bc81703212d72b47e4216/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c280f5cb0da40f73ffd54ff3cece5287/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8df08a3fe060115fc9a27e8f9f00b5dd/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e09702fbc9f6d6b94608b0cb3895cdf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d3f951c542da5d70ab9c0eb6ecbf15cb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/68a70e45d282a82755b2e0cc84ad0924/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/b1895ecf4bf26cbda815d70e26d1277e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/75598eda51f8025ece65cb69b792b618/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/23808329e6d7070b58c8ae587e00c8ef/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/cfa7dac22c1a3afee60923c0fc4a6d90/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/5a7972157112b2f911d2d3cdc020eabe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/78334fb06327de7189c9b86e0b1aa1bd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/ba6a94c01d83e9715c5fdb5faf6616d5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b85f54ea4be398f8b343515e50ce842c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/7e704f154b0b5594239b9a01c27da6cd/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d7d071c697df9d0fe8b6c1b1295004f2/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e383df02cc1aa6e110027d1d00c670c/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/9b482bef5c0906a0d81560a4657ed035/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/3727b5633da6ce45993112871cfff6bf/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/068cbb9d73df5216b2b161fa4f60f829/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/21f6be69c098a369c5955e612d744f8c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/77277c3311888fa1bc8b99da93456691/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/0b087f14c1843893527f2c60b00a7562/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8b8e1804ffafb1896f61cb82e0fd5cfe/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/55f9fbf107d7fe284a99f768517d5d90/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/dd1f6a2ff26eb70799fd9505671584e8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/ikuutayuq/.gradle/caches/transforms-4/77b5b50f2cf1814dffe6d6a905c9ff0b/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:4:5-29
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:4:5-29
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:6:22-74
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CAMERA
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:9:5-84
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:9:22-81
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:10:22-74
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:11:5-13:53
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:13:9-50
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:12:9-61
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:14:5-16:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:15:9-62
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:17:5-95
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:17:22-92
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:18:5-19:38
+	android:maxSdkVersion
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:9-35
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:18:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:20:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:27:5-69
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:27:22-66
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:28:5-70
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:28:22-67
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:29:22-68
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:30:5-32:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:31:9-59
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:33:5-75
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:33:22-72
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:34:5-82
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:34:22-79
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:35:5-37:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:37:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:36:9-57
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:39:5-41:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:40:9-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:42:5-76
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:42:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:43:5-76
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:43:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:5-79
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:5-81
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:22-78
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:47:5-85
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:47:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:48:5-68
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:48:22-65
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:49:5-85
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:49:22-82
+uses-feature#android.hardware.location.gps
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:53:5-55:35
+	android:required
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:55:9-32
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:54:9-53
+uses-feature#android.hardware.camera
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:58:5-60:36
+	android:required
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:60:9-33
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:59:9-47
+uses-feature#android.hardware.telephony
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:61:5-63:36
+	android:required
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:63:9-33
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:62:9-50
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:65:5-71
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:65:22-68
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:70:5-67
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:70:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:72:5-68
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:72:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:73:5-74
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:73:22-71
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:75:5-78
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:75:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:78:5-81
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:78:22-78
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:80:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:80:22-69
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:81:5-75
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:81:22-72
+uses-permission#android.permission.PASSWORD_LOCK
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:82:5-72
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:82:22-69
+uses-permission#android.permission.BATTERY_STATS
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:84:5-86:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:86:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:85:9-56
+uses-permission#android.permission.REBOOT
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:89:5-91:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:91:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:90:9-49
+permission#android.permission.POWER_SAVER
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:93:5-95:51
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:95:9-48
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:94:9-54
+application
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:98:5-232:19
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/be40f6f1444353bd72db9d7d8a384c19/transformed/material-1.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/be40f6f1444353bd72db9d7d8a384c19/transformed/material-1.2.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikuutayuq/.gradle/caches/transforms-4/04c547a3b562bd7269abe3b963996a67/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikuutayuq/.gradle/caches/transforms-4/04c547a3b562bd7269abe3b963996a67/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c95ecc8b8c7207a0529633aa97d7e5a8/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c95ecc8b8c7207a0529633aa97d7e5a8/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/30370664d26e67c54e9100707f405f49/transformed/jetified-play-services-vision-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/30370664d26e67c54e9100707f405f49/transformed/jetified-play-services-vision-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e52a919a911a7eedbc912da70a20e89/transformed/jetified-play-services-vision-image-label-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e52a919a911a7eedbc912da70a20e89/transformed/jetified-play-services-vision-image-label-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/f8aedb19dd2f4dcfe4d931b061a6c51d/transformed/jetified-play-services-vision-common-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/f8aedb19dd2f4dcfe4d931b061a6c51d/transformed/jetified-play-services-vision-common-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ikuutayuq/.gradle/caches/transforms-4/4bf1dfce8bfc251a5beba9874be6ee8d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ikuutayuq/.gradle/caches/transforms-4/4bf1dfce8bfc251a5beba9874be6ee8d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e6e5b208ab6d1a3075adb4dae70f1850/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e6e5b208ab6d1a3075adb4dae70f1850/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/0a2e0700e8f308d11bdaf9960ce3aacc/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/0a2e0700e8f308d11bdaf9960ce3aacc/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/dd3ca0d03a602c11968c7981ac9112e0/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/dd3ca0d03a602c11968c7981ac9112e0/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4160919330053b05fea1fedaa35ffa36/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4160919330053b05fea1fedaa35ffa36/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/da7597ad3a4bc133e87ee767dfe2c648/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/da7597ad3a4bc133e87ee767dfe2c648/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/068cbb9d73df5216b2b161fa4f60f829/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/068cbb9d73df5216b2b161fa4f60f829/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:105:9-35
+	android:label
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:103:9-41
+	android:fullBackupContent
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:101:9-54
+	android:roundIcon
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:104:9-49
+	tools:targetApi
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:108:9-29
+	android:icon
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:102:9-44
+	android:allowBackup
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:99:9-35
+	android:theme
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:106:9-64
+	android:dataExtractionRules
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:100:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:107:9-44
+activity#com.hub.contextawaretaskmanagement.General.ShowAll
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:110:9-113:47
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:112:13-37
+	android:theme
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:111:13-44
+activity#com.hub.contextawaretaskmanagement.General.Account.Register
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:114:9-116:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:116:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:115:13-53
+activity#com.hub.contextawaretaskmanagement.General.GeneralSettings
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:117:9-119:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:119:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:118:13-52
+activity#com.hub.contextawaretaskmanagement.General.PhoneCall
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:120:9-122:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:121:13-46
+activity#com.hub.contextawaretaskmanagement.Rules.Enviroments.Date_Time
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:123:9-125:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:124:13-56
+activity#com.hub.contextawaretaskmanagement.Rules.Rule.MyRules
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:126:9-128:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:128:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:127:13-47
+activity#com.hub.contextawaretaskmanagement.Rules.Rule.GiveRuleName
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:129:9-61
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:129:19-58
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetMessage
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:130:9-132:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:132:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:131:13-68
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetCall
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:133:9-135:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:135:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:134:13-65
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetWifi
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:136:9-138:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:138:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:137:13-65
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetDnd
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:139:9-141:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:141:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:140:13-64
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetBrightness
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:142:9-144:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:144:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:143:13-71
+activity#com.hub.contextawaretaskmanagement.Rules.Enviroments.MapLocation
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:146:9-148:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:147:13-58
+receiver#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Services.VolumeService
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:150:9-153:40
+	android:enabled
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:152:13-35
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:153:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:151:13-72
+receiver#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Services.TexterService
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:154:9-161:20
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:156:13-36
+	android:permission
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:157:13-66
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:155:13-72
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:158:13-160:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:159:17-82
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:159:25-79
+receiver#com.hub.contextawaretaskmanagement.Rules.Enviroments.ReceiveSms
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:163:9-169:20
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:165:13-36
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:164:13-57
+receiver#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Services.CallerService
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:170:9-176:20
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:171:13-72
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:173:13-175:29
+action#android.intent.action.PHONE_STATE
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:174:17-76
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:174:25-73
+service#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.RunnableThread
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:179:9-80
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:179:18-77
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:181:9-183:54
+	android:value
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:183:13-51
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:182:13-58
+activity#com.hub.contextawaretaskmanagement.Rules.Enviroments.Environment
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:186:9-188:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:188:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:187:13-58
+activity#com.hub.contextawaretaskmanagement.Rules.Enviroments.BatteryLevel
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:189:9-191:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:191:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:190:13-59
+activity#com.hub.contextawaretaskmanagement.Rules.Enviroments.Someone_Calling_Texting
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:192:9-194:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:194:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:193:13-70
+activity#com.hub.contextawaretaskmanagement.Rules.Conditions.MyConditions
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:195:9-197:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:197:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:196:13-58
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.MyAction
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:198:9-200:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:200:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:199:13-66
+activity#com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetVolume
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:201:9-203:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:203:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:202:13-67
+activity#com.hub.contextawaretaskmanagement.Logs.Logs
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:204:9-206:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:206:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:205:13-38
+activity#com.hub.contextawaretaskmanagement.General.Account.User
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:207:9-209:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:209:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:208:13-49
+activity#com.hub.contextawaretaskmanagement.General.Account.Login
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:210:9-212:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:212:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:211:13-50
+activity#com.hub.contextawaretaskmanagement.General.MainActivity
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:213:9-215:40
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:215:13-37
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:214:13-49
+activity#com.hub.contextawaretaskmanagement.General.Account.AuthenticationLogin
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:219:9-231:20
+	android:exported
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:221:13-36
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:220:13-64
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:224:13-230:29
+action#android.intent.action.MAIN
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:225:17-69
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:225:25-66
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:226:17-82
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:226:25-79
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:228:17-77
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:228:27-74
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:4:5-5:47
+	tools:ignore
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:5:9-44
+	android:name
+		ADDED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:4:22-76
+uses-sdk
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/be40f6f1444353bd72db9d7d8a384c19/transformed/material-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/be40f6f1444353bd72db9d7d8a384c19/transformed/material-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikuutayuq/.gradle/caches/transforms-4/04c547a3b562bd7269abe3b963996a67/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ikuutayuq/.gradle/caches/transforms-4/04c547a3b562bd7269abe3b963996a67/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c928df499f87faae446dc6f6205c585d/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c928df499f87faae446dc6f6205c585d/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/ikuutayuq/.gradle/caches/transforms-4/ac70ba91be787394de78a23d027e5e38/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/ikuutayuq/.gradle/caches/transforms-4/ac70ba91be787394de78a23d027e5e38/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d767dd7ca1dbe59d05290c98d60b99dc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d767dd7ca1dbe59d05290c98d60b99dc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-ml-vision:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/14e8855b86d78737f8ed14c605fa7b10/transformed/jetified-firebase-ml-vision-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/14e8855b86d78737f8ed14c605fa7b10/transformed/jetified-firebase-ml-vision-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c95ecc8b8c7207a0529633aa97d7e5a8/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c95ecc8b8c7207a0529633aa97d7e5a8/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8ba303aa73d7f2983ebad189c1e26622/transformed/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8ba303aa73d7f2983ebad189c1e26622/transformed/jetified-play-services-auth-base-15.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/30370664d26e67c54e9100707f405f49/transformed/jetified-play-services-vision-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/30370664d26e67c54e9100707f405f49/transformed/jetified-play-services-vision-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e52a919a911a7eedbc912da70a20e89/transformed/jetified-play-services-vision-image-label-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:15.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e52a919a911a7eedbc912da70a20e89/transformed/jetified-play-services-vision-image-label-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/f8aedb19dd2f4dcfe4d931b061a6c51d/transformed/jetified-play-services-vision-common-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/f8aedb19dd2f4dcfe4d931b061a6c51d/transformed/jetified-play-services-vision-common-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.2] /Users/ikuutayuq/.gradle/caches/transforms-4/50bd1674fd37202c0ed1efdb71f29dfc/transformed/jetified-firebase-ml-common-16.1.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:16.1.2] /Users/ikuutayuq/.gradle/caches/transforms-4/50bd1674fd37202c0ed1efdb71f29dfc/transformed/jetified-firebase-ml-common-16.1.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ikuutayuq/.gradle/caches/transforms-4/4bf1dfce8bfc251a5beba9874be6ee8d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/ikuutayuq/.gradle/caches/transforms-4/4bf1dfce8bfc251a5beba9874be6ee8d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/29b1591b871c405f4d4d277724129d6a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/29b1591b871c405f4d4d277724129d6a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ikuutayuq/.gradle/caches/transforms-4/28a80b6d1a67cfda82199d624fef778f/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ikuutayuq/.gradle/caches/transforms-4/28a80b6d1a67cfda82199d624fef778f/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e6e5b208ab6d1a3075adb4dae70f1850/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e6e5b208ab6d1a3075adb4dae70f1850/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/0a2e0700e8f308d11bdaf9960ce3aacc/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/0a2e0700e8f308d11bdaf9960ce3aacc/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/383ad5e5fa5f12690504aa2f4873c394/transformed/jetified-play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/383ad5e5fa5f12690504aa2f4873c394/transformed/jetified-play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/dd3ca0d03a602c11968c7981ac9112e0/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/dd3ca0d03a602c11968c7981ac9112e0/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4160919330053b05fea1fedaa35ffa36/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4160919330053b05fea1fedaa35ffa36/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/da7597ad3a4bc133e87ee767dfe2c648/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/ikuutayuq/.gradle/caches/transforms-4/da7597ad3a4bc133e87ee767dfe2c648/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/ikuutayuq/.gradle/caches/transforms-4/82e7a0b934498bd3cc94a2f9bdb7b9b8/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/ikuutayuq/.gradle/caches/transforms-4/82e7a0b934498bd3cc94a2f9bdb7b9b8/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/ikuutayuq/.gradle/caches/transforms-4/2b287dc3b5152d681acfdd553d2fae2e/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/ikuutayuq/.gradle/caches/transforms-4/2b287dc3b5152d681acfdd553d2fae2e/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/e488128aa3835a2c69f8aa71b106e156/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/e488128aa3835a2c69f8aa71b106e156/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/2e480690c1ddfcbef1f50bf672e24d3b/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/2e480690c1ddfcbef1f50bf672e24d3b/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f60edcfb495092a4dc08d5a2743179f8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f60edcfb495092a4dc08d5a2743179f8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af169fb43f1515b58cf0b51ea81992a8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af169fb43f1515b58cf0b51ea81992a8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/605341937c76db91796e49b5974cc0f7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/605341937c76db91796e49b5974cc0f7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c1d01d14c04a336ef645064dc58fefeb/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c1d01d14c04a336ef645064dc58fefeb/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/18bc5f39aff181ee32489e31d8e7016b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/18bc5f39aff181ee32489e31d8e7016b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4ac17a57ed3bc81703212d72b47e4216/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/4ac17a57ed3bc81703212d72b47e4216/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c280f5cb0da40f73ffd54ff3cece5287/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c280f5cb0da40f73ffd54ff3cece5287/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8df08a3fe060115fc9a27e8f9f00b5dd/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8df08a3fe060115fc9a27e8f9f00b5dd/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e09702fbc9f6d6b94608b0cb3895cdf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e09702fbc9f6d6b94608b0cb3895cdf1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d3f951c542da5d70ab9c0eb6ecbf15cb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d3f951c542da5d70ab9c0eb6ecbf15cb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/68a70e45d282a82755b2e0cc84ad0924/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/68a70e45d282a82755b2e0cc84ad0924/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/b1895ecf4bf26cbda815d70e26d1277e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/b1895ecf4bf26cbda815d70e26d1277e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/75598eda51f8025ece65cb69b792b618/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/75598eda51f8025ece65cb69b792b618/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/23808329e6d7070b58c8ae587e00c8ef/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/23808329e6d7070b58c8ae587e00c8ef/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/cfa7dac22c1a3afee60923c0fc4a6d90/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/cfa7dac22c1a3afee60923c0fc4a6d90/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/5a7972157112b2f911d2d3cdc020eabe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/5a7972157112b2f911d2d3cdc020eabe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/78334fb06327de7189c9b86e0b1aa1bd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/78334fb06327de7189c9b86e0b1aa1bd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/ba6a94c01d83e9715c5fdb5faf6616d5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/ba6a94c01d83e9715c5fdb5faf6616d5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b85f54ea4be398f8b343515e50ce842c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b85f54ea4be398f8b343515e50ce842c/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/7e704f154b0b5594239b9a01c27da6cd/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/7e704f154b0b5594239b9a01c27da6cd/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d7d071c697df9d0fe8b6c1b1295004f2/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/d7d071c697df9d0fe8b6c1b1295004f2/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e383df02cc1aa6e110027d1d00c670c/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1e383df02cc1aa6e110027d1d00c670c/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/9b482bef5c0906a0d81560a4657ed035/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/9b482bef5c0906a0d81560a4657ed035/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/3727b5633da6ce45993112871cfff6bf/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/3727b5633da6ce45993112871cfff6bf/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/068cbb9d73df5216b2b161fa4f60f829/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/068cbb9d73df5216b2b161fa4f60f829/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/21f6be69c098a369c5955e612d744f8c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/21f6be69c098a369c5955e612d744f8c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/77277c3311888fa1bc8b99da93456691/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/ikuutayuq/.gradle/caches/transforms-4/77277c3311888fa1bc8b99da93456691/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/0b087f14c1843893527f2c60b00a7562/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/0b087f14c1843893527f2c60b00a7562/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8b8e1804ffafb1896f61cb82e0fd5cfe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/8b8e1804ffafb1896f61cb82e0fd5cfe/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/55f9fbf107d7fe284a99f768517d5d90/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/55f9fbf107d7fe284a99f768517d5d90/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/dd1f6a2ff26eb70799fd9505671584e8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ikuutayuq/.gradle/caches/transforms-4/dd1f6a2ff26eb70799fd9505671584e8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/ikuutayuq/.gradle/caches/transforms-4/77b5b50f2cf1814dffe6d6a905c9ff0b/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/ikuutayuq/.gradle/caches/transforms-4/77b5b50f2cf1814dffe6d6a905c9ff0b/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6985b6c9364bf191f9146301cbf2e5c1/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/84ec5f1d38619b16b571f15c3f5daa94/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/b7ebf8613ab0fe59741b8473c9634c67/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/12c14271e7a557ec77e1acdefc08e870/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/e7566d5aa958571857275692b9aa498b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/af719187664ba029812466e100a4e402/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/1f014eaed2aecd43ed787321c5a81e1d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ikuutayuq/.gradle/caches/transforms-4/c3915e403aeb3dd3afb544a70e0292f1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/eafa4f1fb20700b222e78e39bf3aba0e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.hub.contextawaretaskmanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.hub.contextawaretaskmanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/da1be480a44350b071509cf3f8ad14a2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/2642d1b8f2d6e51865a6d61ec85deb00/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

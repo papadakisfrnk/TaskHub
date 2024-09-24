@@ -1,0 +1,651 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hub.contextawaretaskmanagement"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+11-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:4:5-5:47
+11-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/debug/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:6:5-77
+12-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:5-65
+14-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+15-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:9:5-84
+15-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:9:22-81
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:10:5-77
+16-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:11:5-13:53
+17-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:12:9-61
+18    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+18-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:14:5-16:47
+18-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:15:9-62
+19    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+19-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:17:5-95
+19-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:17:22-92
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:18:5-80
+20-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:18:22-77
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:5-75
+21-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:22-72
+22    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+22-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:14:5-16:47
+22-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:15:9-62
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:23:5-67
+23-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:23:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:24:5-79
+24-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:24:22-76
+25    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+25-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:25:5-79
+25-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:25:22-76
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:18:5-80
+26-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:18:22-77
+27    <uses-permission android:name="android.permission.CALL_PHONE" />
+27-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:27:5-69
+27-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:27:22-66
+28    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+28-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:28:5-70
+28-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:28:22-67
+29    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+29-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:29:5-71
+29-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:29:22-68
+30    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+30-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:30:5-32:47
+30-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:31:9-59
+31    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+31-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:33:5-75
+31-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:33:22-72
+32    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+32-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:34:5-82
+32-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:34:22-79
+33    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+33-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:35:5-37:47
+33-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:36:9-57
+34    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+34-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:39:5-41:47
+34-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:40:9-64
+35    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+35-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:42:5-76
+35-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:42:22-73
+36    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+36-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:43:5-76
+36-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:43:22-73
+37    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+37-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:5-79
+37-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:22-76
+38    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+38-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:5-81
+38-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:22-78
+39    <uses-permission android:name="android.permission.CAMERA" />
+39-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:5-65
+39-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:22-62
+40    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+40-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:47:5-85
+40-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:47:22-82
+41    <uses-permission android:name="android.permission.WAKE_LOCK" />
+41-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:48:5-68
+41-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:48:22-65
+42    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+42-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:49:5-85
+42-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:49:22-82
+43    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:5-75
+43-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:22-72
+44
+45    <uses-feature
+45-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:53:5-55:35
+46        android:name="android.hardware.location.gps"
+46-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:54:9-53
+47        android:required="true" />
+47-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:55:9-32
+48
+49    <uses-permission android:name="android.permission.CAMERA" />
+49-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:5-65
+49-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:22-62
+50
+51    <uses-feature
+51-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:58:5-60:36
+52        android:name="android.hardware.camera"
+52-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:59:9-47
+53        android:required="false" />
+53-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:60:9-33
+54    <uses-feature
+54-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:61:5-63:36
+55        android:name="android.hardware.telephony"
+55-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:62:9-50
+56        android:required="false" />
+56-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:63:9-33
+57
+58    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+58-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:65:5-71
+58-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:65:22-68
+59    <uses-permission android:name="android.permission.CAMERA" />
+59-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:5-65
+59-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:8:22-62
+60    <uses-permission android:name="android.permission.INTERNET" />
+60-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:23:5-67
+60-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:23:22-64
+61    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+61-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:24:5-79
+61-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:24:22-76
+62    <uses-permission android:name="android.permission.CALL_PHONE" />
+62-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:27:5-69
+62-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:27:22-66
+63    <uses-permission android:name="android.permission.SEND_SMS" />
+63-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:70:5-67
+63-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:70:22-64
+64    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+64-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:28:5-70
+64-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:28:22-67
+65    <uses-permission android:name="android.permission.BLUETOOTH" />
+65-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:72:5-68
+65-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:72:22-65
+66    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+66-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:73:5-74
+66-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:73:22-71
+67    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+67-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:5-81
+67-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:22-78
+68    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+68-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:75:5-78
+68-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:75:22-75
+69    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+69-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:5-81
+69-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:45:22-78
+70    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+70-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:5-79
+70-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:22-76
+71    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+71-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:78:5-81
+71-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:78:22-78
+72    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+72-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:5-79
+72-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:44:22-76
+73    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+73-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:80:5-72
+73-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:80:22-69
+74    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+74-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:81:5-75
+74-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:81:22-72
+75    <uses-permission android:name="android.permission.PASSWORD_LOCK" />
+75-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:82:5-72
+75-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:82:22-69
+76    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+76-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:5-75
+76-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:19:22-72
+77    <uses-permission android:name="android.permission.BATTERY_STATS" />
+77-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:84:5-86:47
+77-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:85:9-56
+78    <uses-permission android:name="android.permission.REBOOT" />
+78-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:89:5-91:47
+78-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:90:9-49
+79
+80    <permission android:name="android.permission.POWER_SAVER" /> <!-- suppress DeprecatedClassUsageInspection -->
+80-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:93:5-95:51
+80-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:94:9-54
+81    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+81-->[androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/26d91167a16c3999b895b18410fc0181/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+81-->[androidx.biometric:biometric:1.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/26d91167a16c3999b895b18410fc0181/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+82
+83    <uses-feature
+83-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+84        android:glEsVersion="0x00020000"
+84-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+85        android:required="true" />
+85-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+86
+87    <queries>
+87-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+88
+89        <!-- Needs to be explicitly declared on Android R+ -->
+90        <package android:name="com.google.android.apps.maps" />
+90-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+90-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+91    </queries>
+92
+93    <permission
+93-->[androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/35d3fd5377e62b6fa67306fcb8a85c68/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+94        android:name="com.hub.contextawaretaskmanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+94-->[androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/35d3fd5377e62b6fa67306fcb8a85c68/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+95        android:protectionLevel="signature" />
+95-->[androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/35d3fd5377e62b6fa67306fcb8a85c68/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+96
+97    <uses-permission android:name="com.hub.contextawaretaskmanagement.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+97-->[androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/35d3fd5377e62b6fa67306fcb8a85c68/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+97-->[androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/35d3fd5377e62b6fa67306fcb8a85c68/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+98
+99    <application
+99-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:98:5-232:19
+100        android:allowBackup="true"
+100-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:99:9-35
+101        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+101-->[androidx.core:core:1.9.0] /Users/ikuutayuq/.gradle/caches/transforms-4/35d3fd5377e62b6fa67306fcb8a85c68/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+102        android:dataExtractionRules="@xml/data_extraction_rules"
+102-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:100:9-65
+103        android:debuggable="true"
+104        android:extractNativeLibs="false"
+105        android:fullBackupContent="@xml/backup_rules"
+105-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:101:9-54
+106        android:icon="@mipmap/taskhub_logo"
+106-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:102:9-44
+107        android:label="@string/app_name"
+107-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:103:9-41
+108        android:roundIcon="@mipmap/taskhub_logo"
+108-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:104:9-49
+109        android:supportsRtl="true"
+109-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:105:9-35
+110        android:testOnly="true"
+111        android:theme="@style/Theme.ContextAwareTaskManagement"
+111-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:106:9-64
+112        android:usesCleartextTraffic="true" >
+112-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:107:9-44
+113        <activity
+113-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:110:9-113:47
+114            android:name="com.hub.contextawaretaskmanagement.General.ShowAll"
+114-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:111:13-44
+115            android:exported="false"
+115-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:112:13-37
+116            android:theme="@style/AppTheme" />
+116-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:113:13-44
+117        <activity
+117-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:114:9-116:40
+118            android:name="com.hub.contextawaretaskmanagement.General.Account.Register"
+118-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:115:13-53
+119            android:exported="false" />
+119-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:116:13-37
+120        <activity
+120-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:117:9-119:40
+121            android:name="com.hub.contextawaretaskmanagement.General.GeneralSettings"
+121-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:118:13-52
+122            android:exported="false" />
+122-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:119:13-37
+123        <activity
+123-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:120:9-122:40
+124            android:name="com.hub.contextawaretaskmanagement.General.PhoneCall"
+124-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:121:13-46
+125            android:exported="false" />
+125-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:122:13-37
+126        <activity
+126-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:123:9-125:40
+127            android:name="com.hub.contextawaretaskmanagement.Rules.Enviroments.Date_Time"
+127-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:124:13-56
+128            android:exported="false" />
+128-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:125:13-37
+129        <activity
+129-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:126:9-128:40
+130            android:name="com.hub.contextawaretaskmanagement.Rules.Rule.MyRules"
+130-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:127:13-47
+131            android:exported="false" />
+131-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:128:13-37
+132        <activity android:name="com.hub.contextawaretaskmanagement.Rules.Rule.GiveRuleName" />
+132-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:129:9-61
+132-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:129:19-58
+133        <activity
+133-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:130:9-132:40
+134            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetMessage"
+134-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:131:13-68
+135            android:exported="false" />
+135-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:132:13-37
+136        <activity
+136-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:133:9-135:40
+137            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetCall"
+137-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:134:13-65
+138            android:exported="false" />
+138-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:135:13-37
+139        <activity
+139-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:136:9-138:40
+140            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetWifi"
+140-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:137:13-65
+141            android:exported="false" />
+141-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:138:13-37
+142        <activity
+142-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:139:9-141:40
+143            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetDnd"
+143-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:140:13-64
+144            android:exported="false" />
+144-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:141:13-37
+145        <activity
+145-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:142:9-144:40
+146            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetBrightness"
+146-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:143:13-71
+147            android:exported="false" />
+147-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:144:13-37
+148        <activity
+148-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:146:9-148:40
+149            android:name="com.hub.contextawaretaskmanagement.Rules.Enviroments.MapLocation"
+149-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:147:13-58
+150            android:exported="false" />
+150-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:148:13-37
+151
+152        <receiver
+152-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:150:9-153:40
+153            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Services.VolumeService"
+153-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:151:13-72
+154            android:enabled="true"
+154-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:152:13-35
+155            android:exported="false" />
+155-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:153:13-37
+156        <receiver
+156-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:154:9-161:20
+157            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Services.TexterService"
+157-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:155:13-72
+158            android:exported="true"
+158-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:156:13-36
+159            android:permission="android.permission.BROADCAST_SMS" >
+159-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:157:13-66
+160            <intent-filter>
+160-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:158:13-160:29
+161                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+161-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:159:17-82
+161-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:159:25-79
+162            </intent-filter>
+163        </receiver>
+164        <receiver
+164-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:163:9-169:20
+165            android:name="com.hub.contextawaretaskmanagement.Rules.Enviroments.ReceiveSms"
+165-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:164:13-57
+166            android:exported="true" >
+166-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:165:13-36
+167            <intent-filter>
+167-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:158:13-160:29
+168                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+168-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:159:17-82
+168-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:159:25-79
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:170:9-176:20
+172            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Services.CallerService"
+172-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:171:13-72
+173            android:exported="false" >
+173-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:172:13-37
+174            <intent-filter>
+174-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:173:13-175:29
+175                <action android:name="android.intent.action.PHONE_STATE" />
+175-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:174:17-76
+175-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:174:25-73
+176            </intent-filter>
+177        </receiver>
+178
+179        <service android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.RunnableThread" />
+179-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:179:9-80
+179-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:179:18-77
+180
+181        <meta-data
+181-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:181:9-183:54
+182            android:name="com.google.android.geo.API_KEY"
+182-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:182:13-58
+183            android:value="@string/my_map_api_key" />
+183-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:183:13-51
+184
+185        <activity
+185-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:186:9-188:40
+186            android:name="com.hub.contextawaretaskmanagement.Rules.Enviroments.Environment"
+186-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:187:13-58
+187            android:exported="false" />
+187-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:188:13-37
+188        <activity
+188-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:189:9-191:40
+189            android:name="com.hub.contextawaretaskmanagement.Rules.Enviroments.BatteryLevel"
+189-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:190:13-59
+190            android:exported="false" />
+190-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:191:13-37
+191        <activity
+191-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:192:9-194:40
+192            android:name="com.hub.contextawaretaskmanagement.Rules.Enviroments.Someone_Calling_Texting"
+192-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:193:13-70
+193            android:exported="false" />
+193-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:194:13-37
+194        <activity
+194-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:195:9-197:40
+195            android:name="com.hub.contextawaretaskmanagement.Rules.Conditions.MyConditions"
+195-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:196:13-58
+196            android:exported="false" />
+196-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:197:13-37
+197        <activity
+197-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:198:9-200:40
+198            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.MyAction"
+198-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:199:13-66
+199            android:exported="false" />
+199-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:200:13-37
+200        <activity
+200-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:201:9-203:40
+201            android:name="com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions.SetVolume"
+201-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:202:13-67
+202            android:exported="false" />
+202-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:203:13-37
+203        <activity
+203-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:204:9-206:40
+204            android:name="com.hub.contextawaretaskmanagement.Logs.Logs"
+204-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:205:13-38
+205            android:exported="false" />
+205-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:206:13-37
+206        <activity
+206-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:207:9-209:40
+207            android:name="com.hub.contextawaretaskmanagement.General.Account.User"
+207-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:208:13-49
+208            android:exported="false" />
+208-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:209:13-37
+209        <activity
+209-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:210:9-212:40
+210            android:name="com.hub.contextawaretaskmanagement.General.Account.Login"
+210-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:211:13-50
+211            android:exported="false" />
+211-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:212:13-37
+212        <activity
+212-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:213:9-215:40
+213            android:name="com.hub.contextawaretaskmanagement.General.MainActivity"
+213-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:214:13-49
+214            android:exported="false" />
+214-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:215:13-37
+215
+216        <!-- With this Activity The app Starts ! -->
+217        <activity
+217-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:219:9-231:20
+218            android:name="com.hub.contextawaretaskmanagement.General.Account.AuthenticationLogin"
+218-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:220:13-64
+219            android:exported="true" >
+219-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:221:13-36
+220            <intent-filter>
+220-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:224:13-230:29
+221                <action android:name="android.intent.action.MAIN" />
+221-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:225:17-69
+221-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:225:25-66
+222                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+222-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:226:17-82
+222-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:226:25-79
+223
+224                <category android:name="android.intent.category.LAUNCHER" />
+224-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:228:17-77
+224-->/Users/ikuutayuq/AndroidStudioProjects/ContextAwareTaskManagement/app/src/main/AndroidManifest.xml:228:27-74
+225            </intent-filter>
+226        </activity>
+227        <!-- Needs to be explicitly declared on P+ -->
+228        <uses-library
+228-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+229            android:name="org.apache.http.legacy"
+229-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+230            android:required="false" />
+230-->[com.google.android.gms:play-services-maps:18.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/f3856d7f02534aa4fe24256cf9dfc7c7/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+231
+232        <activity
+232-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+233            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+233-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+234            android:excludeFromRecents="true"
+234-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+235            android:exported="true"
+235-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+236            android:launchMode="singleTask"
+236-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+237-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+238            <intent-filter>
+238-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+239                <action android:name="android.intent.action.VIEW" />
+239-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+239-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+240
+241                <category android:name="android.intent.category.DEFAULT" />
+241-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+241-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+242                <category android:name="android.intent.category.BROWSABLE" />
+242-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+242-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+243
+244                <data
+244-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+245                    android:host="firebase.auth"
+245-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+246                    android:path="/"
+246-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+247                    android:scheme="genericidp" />
+247-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+248            </intent-filter>
+249        </activity>
+250        <activity
+250-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+251            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+251-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+252            android:excludeFromRecents="true"
+252-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+253            android:exported="true"
+253-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+254            android:launchMode="singleTask"
+254-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+255            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+255-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+256            <intent-filter>
+256-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+257                <action android:name="android.intent.action.VIEW" />
+257-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+257-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+258
+259                <category android:name="android.intent.category.DEFAULT" />
+259-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+259-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+260                <category android:name="android.intent.category.BROWSABLE" />
+260-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+260-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+261
+262                <data
+262-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+263                    android:host="firebase.auth"
+263-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+264                    android:path="/"
+264-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+265                    android:scheme="recaptcha" />
+265-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+266            </intent-filter>
+267        </activity>
+268
+269        <service
+269-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+270            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+270-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+271            android:enabled="true"
+271-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+272            android:exported="false" >
+272-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+273            <intent-filter>
+273-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+274                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+274-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+274-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+275
+276                <category android:name="android.intent.category.DEFAULT" />
+276-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+276-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+277            </intent-filter>
+278        </service>
+279        <service
+279-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+280            android:name="com.google.firebase.components.ComponentDiscoveryService"
+280-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+281            android:directBootAware="true"
+281-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+282            android:exported="false" >
+282-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+283            <meta-data
+283-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+284                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+284-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+285                android:value="com.google.firebase.components.ComponentRegistrar" />
+285-->[com.google.firebase:firebase-auth:21.0.1] /Users/ikuutayuq/.gradle/caches/transforms-4/6486f38e307330251e6ab2771f87660d/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+286            <meta-data
+286-->[com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/c055cbfc58bed977f3a32610114a84f9/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+287                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+287-->[com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/c055cbfc58bed977f3a32610114a84f9/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+288                android:value="com.google.firebase.components.ComponentRegistrar" />
+288-->[com.google.firebase:firebase-database:20.0.4] /Users/ikuutayuq/.gradle/caches/transforms-4/c055cbfc58bed977f3a32610114a84f9/transformed/jetified-firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+289        </service>
+290
+291        <activity
+291-->[com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/994fb74d61c311e41540f1f3f9cbd66e/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+292            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+292-->[com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/994fb74d61c311e41540f1f3f9cbd66e/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+293            android:exported="false"
+293-->[com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/994fb74d61c311e41540f1f3f9cbd66e/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->[com.google.android.gms:play-services-base:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/994fb74d61c311e41540f1f3f9cbd66e/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+295
+296        <provider
+296-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+297            android:name="com.google.firebase.provider.FirebaseInitProvider"
+297-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+298            android:authorities="com.hub.contextawaretaskmanagement.firebaseinitprovider"
+298-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+299            android:directBootAware="true"
+299-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+300            android:exported="false"
+300-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+301            android:initOrder="100" />
+301-->[com.google.firebase:firebase-common:20.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/fa7e35170c5c18ec4e08f48f30e8d68c/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+302
+303        <meta-data
+303-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6bcdcc73f2413860e4915abc6ae99d88/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+304            android:name="com.google.android.gms.version"
+304-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6bcdcc73f2413860e4915abc6ae99d88/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+305            android:value="@integer/google_play_services_version" />
+305-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ikuutayuq/.gradle/caches/transforms-4/6bcdcc73f2413860e4915abc6ae99d88/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+306
+307        <provider
+307-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+308            android:name="androidx.startup.InitializationProvider"
+308-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+309            android:authorities="com.hub.contextawaretaskmanagement.androidx-startup"
+309-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+310            android:exported="false" >
+310-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+311            <meta-data
+311-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+312                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+312-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+313                android:value="androidx.startup" />
+313-->[androidx.emoji2:emoji2:1.2.0] /Users/ikuutayuq/.gradle/caches/transforms-4/c66d132454e2fde1cc1377883500dc12/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+314            <meta-data
+314-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/f933f2494543e896ad588772817090d8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+315                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+315-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/f933f2494543e896ad588772817090d8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+316                android:value="androidx.startup" />
+316-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ikuutayuq/.gradle/caches/transforms-4/f933f2494543e896ad588772817090d8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+317        </provider>
+318    </application>
+319
+320</manifest>
