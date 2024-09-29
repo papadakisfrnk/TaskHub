@@ -24,7 +24,6 @@ import com.hub.contextawaretaskmanagement.R;
 public class PhoneCall extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 1;
     private static final int REQUEST_CODE = 1;
-    private EditText editText1;
     private Button button1;
     private EditText mobileno, message;
     private Button sendsms;
@@ -38,16 +37,15 @@ public class PhoneCall extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-        editText1 = findViewById(R.id.callText);
         button1 = findViewById(R.id.callButton);
-        mobileno = findViewById(R.id.messageMobile);
+        mobileno = findViewById(R.id.mobile_no);
         message = findViewById(R.id.message);
         sendsms = findViewById(R.id.messageButton);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String number = editText1.getText().toString();
+                String number = mobileno.getText().toString();
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
                 callIntent.setData(Uri.parse("tel:" + number));
 
@@ -112,7 +110,7 @@ public class PhoneCall extends AppCompatActivity {
 
         if (requestCode == MY_PERMISSIONS_REQUEST_CALL_PHONE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                String number = editText1.getText().toString();
+                String number = mobileno.getText().toString();
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
                 callIntent.setData(Uri.parse("tel:" + number));
                 startActivity(callIntent);

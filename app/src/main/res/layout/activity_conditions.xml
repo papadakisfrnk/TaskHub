@@ -82,6 +82,7 @@
         android:text="Actions"
         android:textColor="#7289da"
         android:textSize="25sp"
+        android:layout_marginBottom="200dp"
         android:textStyle="italic"
         app:layout_constraintTop_toBottomOf="@id/conditionlistView"
         app:layout_constraintBottom_toTopOf="@id/floatingActionButton"
@@ -95,7 +96,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4" />
+        app:layout_constraintTop_toBottomOf="@id/textView4"
+        app:layout_constraintBottom_toTopOf="@id/floatingActionButton"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"

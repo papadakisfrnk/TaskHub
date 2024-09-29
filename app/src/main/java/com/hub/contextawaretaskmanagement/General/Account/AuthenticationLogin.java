@@ -52,8 +52,10 @@ public class AuthenticationLogin extends AppCompatActivity {
                     intent = new Intent(AuthenticationLogin.this, Register.class);
                     startActivity(intent);
                 } else {
-                    intent = new Intent(AuthenticationLogin.this, Login.class);
-                    startActivity(intent);
+
+                        intent = new Intent(AuthenticationLogin.this, Login.class);
+                        startActivity(intent);
+
                 }
             }
         });
@@ -126,7 +128,11 @@ public class AuthenticationLogin extends AppCompatActivity {
         loginbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                biometricPrompt.authenticate(promptInfo);
+                if (dbHelper.getAllUsernames().isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "You have to register first in order to use the fingerprint login.", Toast.LENGTH_SHORT).show();
+                }else {
+                    biometricPrompt.authenticate(promptInfo);
+                }
             }
         });
     }

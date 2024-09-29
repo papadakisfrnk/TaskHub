@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:padding="8dp"
         android:textAppearance="?android:attr/textAppearanceListItem"
         app:layout_constraintTop_toTopOf="parent"

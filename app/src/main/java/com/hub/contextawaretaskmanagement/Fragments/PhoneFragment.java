@@ -23,17 +23,16 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
-import com.hub.contextawaretaskmanagement.General.MainActivity;
 import com.hub.contextawaretaskmanagement.R;
 
 public class PhoneFragment extends Fragment {
 
     private static final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 1;
     private static final int REQUEST_CODE = 1;
-    private EditText editText1;
-    private Button button1;
+    private Button button_call;
     private EditText mobileno, message;
     private Button sendsms;
+    private String number = new String();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -48,14 +47,14 @@ public class PhoneFragment extends Fragment {
             titleTextView.setText("Phone Task");
         }
 
-        editText1 = view.findViewById(R.id.callText);
-        button1 = view.findViewById(R.id.callButton);
-        mobileno = view.findViewById(R.id.messageMobile);
+        button_call = view.findViewById(R.id.callButton);
+        mobileno = view.findViewById(R.id.mobile_no);
         message = view.findViewById(R.id.message);
         sendsms = view.findViewById(R.id.messageButton);
 
-        button1.setOnClickListener(v -> {
-            String number = editText1.getText().toString();
+
+        button_call.setOnClickListener(v -> {
+            number = mobileno.getText().toString();
             if (number.length() > 9) {
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
                 callIntent.setData(Uri.parse("tel:" + number));
@@ -66,30 +65,31 @@ public class PhoneFragment extends Fragment {
                 } else {
                     startActivity(callIntent);
                 }
-            }
-            else{
+            } else {
                 Toast.makeText(requireContext(), "Phone number must have at least 10 digits", Toast.LENGTH_SHORT).show();
             }
         });
 
 
         sendsms.setOnClickListener(arg0 -> {
-            String no = mobileno.getText().toString();
+            number = mobileno.getText().toString();
             String msg = message.getText().toString();
-
-            if (no.length() < 10) {
-
+            if (!(number.length() > 9)) {
                 Toast.makeText(requireContext(), "Phone number must have at least 10 digits", Toast.LENGTH_SHORT).show();
             } else if (msg.isEmpty()) {
 
                 Toast.makeText(requireContext(), "Message cannot be empty", Toast.LENGTH_SHORT).show();
             } else {
-                SmsManager sms = SmsManager.getDefault();
-                Intent intent = new Intent(requireContext(), MainActivity.class);
-                PendingIntent pi = PendingIntent.getActivity(requireContext(), 0, intent, PendingIntent.FLAG_IMMUTABLE);
-
-                sms.sendTextMessage(no, null, msg, pi, null);
-                Toast.makeText(requireContext(), "Message Sent successfully!", Toast.LENGTH_LONG).show();
+                try {
+                    SmsManager sms = SmsManager.getDefault();
+                    Intent intent = new Intent(requireContext(), PhoneFragment.class);
+                    PendingIntent pi = PendingIntent.getActivity(requireContext(), 0, intent, PendingIntent.FLAG_IMMUTABLE);
+                    sms.sendTextMessage(number, null, msg, pi, null);
+                    Toast.makeText(requireContext(), "Message Sent successfully!", Toast.LENGTH_LONG).show();
+                } catch (Exception e) {
+                    Toast.makeText(requireContext(), "Failed to send SMS: " + e.getMessage(), Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
             }
         });
 
@@ -115,18 +115,24 @@ public class PhoneFragment extends Fragment {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
-                                           @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
         if (requestCode == MY_PERMISSIONS_REQUEST_CALL_PHONE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                String number = editText1.getText().toString();
+                number = mobileno.getText().toString();
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
                 callIntent.setData(Uri.parse("tel:" + number));
                 startActivity(callIntent);
             } else {
-                Toast.makeText(requireContext(), "Permission denied", Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext(), "Call Permission denied", Toast.LENGTH_SHORT).show();
+            }
+        } else if (requestCode == REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permission for SMS granted
+                Toast.makeText(requireContext(), "SMS Permissions Granted", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(requireContext(), "SMS Permission denied", Toast.LENGTH_SHORT).show();
             }
         }
     }

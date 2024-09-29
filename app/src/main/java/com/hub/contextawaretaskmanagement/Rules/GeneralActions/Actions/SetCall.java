@@ -2,7 +2,10 @@ package com.hub.contextawaretaskmanagement.Rules.GeneralActions.Actions;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,6 +19,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatTextView;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.hub.contextawaretaskmanagement.Fragments.GeneralSettingsFragment;
 import com.hub.contextawaretaskmanagement.Fragments.LogsFragment;
 import com.hub.contextawaretaskmanagement.Fragments.MyRulesFragment;
@@ -26,7 +30,6 @@ import com.hub.contextawaretaskmanagement.Logs.LogStorage;
 import com.hub.contextawaretaskmanagement.R;
 import com.hub.contextawaretaskmanagement.Rules.Rule.CurrentRule;
 import com.hub.contextawaretaskmanagement.Rules.Rule.RuleAction;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,11 +38,11 @@ public class SetCall extends AppCompatActivity implements BottomNavigationView
         .OnNavigationItemSelectedListener {
     private EditText call_id;
     private Button button1;
-
     private BottomNavigationView bottomNavigationView;
-
     private List<RuleAction> actionList = new ArrayList<>();
+    private static final int PICK_CONTACT = 1;
 
+    private Button pickContactButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -105,6 +108,18 @@ public class SetCall extends AppCompatActivity implements BottomNavigationView
                 }
             }
         });
+
+        pickContactButton = findViewById(R.id.pickContactButton);
+
+        pickContactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create an intent to pick a contact
+                Intent intent = new Intent(Intent.ACTION_PICK);
+                intent.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+                startActivityForResult(intent, PICK_CONTACT);
+            }
+        });
     }
 
     private boolean isValidPhoneNumber(String phoneNumber) {
@@ -136,6 +151,24 @@ public class SetCall extends AppCompatActivity implements BottomNavigationView
         intent.putExtra("email", MainActivity.email);
         startActivity(intent);
         finish();
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == PICK_CONTACT && resultCode == RESULT_OK) {
+            Uri contactUri = data.getData();
+            String[] projection = new String[]{ContactsContract.CommonDataKinds.Phone.NUMBER};
+
+            Cursor cursor = getContentResolver().query(contactUri, projection, null, null, null);
+            if (cursor != null && cursor.moveToFirst()) {
+                int numberIndex = cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
+                String number = cursor.getString(numberIndex);
+                cursor.close();
+
+                call_id.setText(number);
+            }
+        }
     }
 
     @Override
