@@ -41,10 +41,6 @@ This Android app allows users to log in and keeps track of the last user who log
 - When a user logs in, the last user is saved and can be accessed later.
 - Extend the `TaskHub` class for additional features like persistent storage or authentication.
 
-## Screenshots
-
-![Login Screen](path/to/login-screenshot.png)
-
 ## Contributing
 
 Feel free to submit issues or contribute by opening pull requests. Contributions are welcome!
